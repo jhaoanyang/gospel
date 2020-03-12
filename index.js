@@ -181,9 +181,9 @@ function outputMain ( g0, g_0, paraCounter ) {
 
     // 動態等高表格
     $( ".container-fluid" ).append( '<div class="row Para Para-' + paraCounter + '"></div>' );
-    $( ".row.Para-" + paraCounter ).append( '<div class="Para col-6"><ul class="Mat Para Para-' + paraCounter + '"></ul></div>' );
-    $( ".row.Para-" + paraCounter ).append( '<div class="Para col-6"><ul class="Mak Para Para-' + paraCounter + '"></ul></div>' );
-    $( ".row.Para-" + paraCounter ).append( '<div class="Para col-6"><ul class="Luk Para Para-' + paraCounter + '"></ul></div>' );
+    $( ".row.Para-" + paraCounter ).append( '<div class="Para col-4"><ul class="Mat Para Para-' + paraCounter + '"></ul></div>' );
+    $( ".row.Para-" + paraCounter ).append( '<div class="Para col-4"><ul class="Mak Para Para-' + paraCounter + '"></ul></div>' );
+    $( ".row.Para-" + paraCounter ).append( '<div class="Para col-4"><ul class="Luk Para Para-' + paraCounter + '"></ul></div>' );
 
     // 福音書輸出對應的 List
     $( "." + g0 + ".Para-" + paraCounter ).append( g_0 );
